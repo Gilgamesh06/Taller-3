@@ -683,6 +683,7 @@
     * **Aplicar**
 
         ```bash
+        kubectl apply -f frontend-config-cm.yaml
         kubectl apply -f frontend-svc.yaml
         kubectl apply -f frontend.yaml
         ```
